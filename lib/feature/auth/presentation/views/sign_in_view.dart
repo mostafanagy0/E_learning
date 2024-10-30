@@ -1,3 +1,4 @@
+import 'package:e_learning/feature/auth/presentation/widgets/sign_in_view_body.dart';
 import 'package:flutter/material.dart';
 
 class SignInView extends StatelessWidget {
@@ -5,6 +6,8 @@ class SignInView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: SignInViewBody(),
+    );
   }
 }
