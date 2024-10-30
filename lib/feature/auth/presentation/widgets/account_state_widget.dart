@@ -1,3 +1,4 @@
+import 'package:e_learning/core/func/navigation.dart';
 import 'package:e_learning/core/utils/text_style.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,9 @@ class AccountStateWidget extends StatelessWidget {
           width: 6,
         ),
         GestureDetector(
-          onDoubleTap: () {},
+          onTap: () {
+            customReplacementNavigate(context, "/SignUp");
+          },
           child: Text(
             text2,
             style:

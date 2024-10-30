@@ -1,3 +1,4 @@
+import 'package:e_learning/feature/auth/presentation/views/Sign_Up_view.dart';
 import 'package:e_learning/feature/auth/presentation/views/sign_in_view.dart';
 import 'package:e_learning/feature/splash/presentation/views/splash%20_view.dart';
 import 'package:go_router/go_router.dart';
@@ -10,5 +11,9 @@ final GoRouter router = GoRouter(routes: [
   GoRoute(
     path: "/SignIn",
     builder: (context, state) => const SignInView(),
+  ),
+  GoRoute(
+    path: "/SignUp",
+    builder: (context, state) => const SignUpView(),
   ),
 ]);
