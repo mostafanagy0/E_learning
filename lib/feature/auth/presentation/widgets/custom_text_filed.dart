@@ -4,13 +4,10 @@ import 'package:flutter/material.dart';
 
 class CustomTextFiled extends StatelessWidget {
   const CustomTextFiled(
-      {super.key,
-      required this.hintText,
-      this.suffixIcon,
-      required this.prefixIcon});
+      {super.key, required this.hintText, this.suffixIcon, this.prefixIcon});
   final String hintText;
   final Widget? suffixIcon;
-  final Widget prefixIcon;
+  final Widget? prefixIcon;
 
   @override
   Widget build(BuildContext context) {
